@@ -96,6 +96,6 @@ f2=str(f2)+'+1.2'
 x = 0
 y = 1.2
 #print ("--> ",eval(f2))
-Euler(lambda x,y: 2*y-(2*x**2)+x-3 ,10,0.1)
+Euler(lambda x,y: 2*y-(2*x**2)+x-3 ,2,0.1)
 print()
 #print(Euler(lambda x:  12*x**2 -2*x**3 - 20*x+ 8.5,10,0.5,f2))
